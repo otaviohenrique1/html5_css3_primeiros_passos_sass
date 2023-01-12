@@ -1,0 +1,20 @@
+{
+  "name": "html5_css3_primeiros_passos_sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass_compile": "sass ./styles/style.scss ./styles/style.css",
+    "sass_compile_watch": "sass --watch ./styles/style.scss ./styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaviohenrique1/html5_css3_parte_1.git"
+  },
+  "author": "Otavio Henrique de Lima e Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otaviohenrique1/html5_css3_parte_1/issues"
+  },
+  "homepage": "https://github.com/otaviohenrique1/html5_css3_parte_1#readme"
+}

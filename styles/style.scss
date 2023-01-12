@@ -1,0 +1,60 @@
+$background-principal: #CCCCCC;
+$background-beneficios: #ffffff;
+
+@mixin text_align($valor) {
+  text-align: $valor;
+}
+
+#banner {
+  width: 100%;
+}
+
+.principal {
+  background: $background-principal;
+  padding: 30px;
+}
+
+.titulo-principal {
+  padding-left: 20px;
+}
+
+.titulo-centralizado {
+  @include text_align(center);
+}
+
+p {
+  @include text_align(center);
+}
+
+#missao {
+  font-size: 20px;
+}
+
+p em strong {
+  color: red;
+}
+
+.beneficios {
+  background: $background-beneficios;
+  padding: 20px;
+}
+
+ul {
+  display: inline-block;
+  /*
+    display: block; => ocupa a largura inteira da página.
+    display: inline; => não deixa alterar, por exemplo, o espaçamento externo e interno.
+    display: inline-block; => tem as caracteristicas do inline e do block, bloqueia uma largura, mas essa largura é fixa e deixa também mexer na largura e nos espaçamentos interno e externo.
+  */
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.itens {
+  font-style: italic;
+}
+
+#imagem_beneficios {
+  width: 50%;
+}
